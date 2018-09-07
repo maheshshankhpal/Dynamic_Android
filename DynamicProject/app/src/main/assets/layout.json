@@ -1,0 +1,70 @@
+{
+    "root":[
+      {
+        "ControlId" : "1",
+        "ControlName" : "root",
+        "ControlType" : "LinearLayout",
+        "layout_width": "match_parent",
+        "layout_height":"match_parent",
+        "orientation":"vertical"
+      }
+    ],
+    "child":[
+      {
+        "ControlId" : "2",
+        "ControlName" : "LinearLayout2",
+        "ControlType" : "LinearLayout",
+        "layout_width": "match_parent",
+        "layout_height":"wrap_content",
+        "orientation":"horizontal",
+        "ParentId":"0",
+        "ParentControlName" : "root",
+        "ParentControlType" : "LinearLayout"
+      },
+      {
+        "ControlId" : "3",
+        "ControlName" : "textview1",
+        "ControlType" : "TextView",
+        "layout_width": "150",
+        "layout_height":"wrap_content",
+        "text":"Branch code",
+        "ParentId":"2",
+        "ParentControlName" : "LinearLayout2",
+        "ParentControlType" : "LinearLayout"
+      },
+      {
+        "ControlId" : "4",
+        "ControlType" : "EditText",
+        "ControlName" : "EditText1",
+        "layout_width": "match_parent",
+        "layout_height":"wrap_content",
+        "ParentId":"0",
+        "ParentControlName" : "LinearLayout2",
+        "ParentControlType" : "LinearLayout"
+      },
+      {
+        "ControlId" : "5",
+        "ControlName" : "LinearLayout3",
+        "ControlType" : "LinearLayout",
+        "layout_width": "match_parent",
+        "layout_height":"wrap_content",
+        "orientation":"horizontal",
+        "ParentId":"0",
+        "ParentControlName" : "root",
+        "ParentControlType" : "LinearLayout"
+      },
+      {
+        "ControlId" : "6",
+        "ControlType" : "Button",
+        "ControlName" : "button1",
+        "text":"Click Me...",
+        "layout_width": "match_parent",
+        "layout_height":"wrap_content",
+        "ParentId":"0",
+        "ParentControlName" : "LinearLayout3",
+        "ParentControlType" : "LinearLayout",
+        "on_click_code":"C01",
+        "on_click_value":"EditText1"
+      }
+    ]
+}
